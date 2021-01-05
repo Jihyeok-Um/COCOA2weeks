@@ -1,18 +1,24 @@
-body {
-    background-color: white;
-}
 
 .home-header {
     display: flex;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+    width: 375px;
+    box-sizing: border-box;
+    overflow: auto;
 }
+
+.home-header::-webkit-scrollbar {
+    height: 5px;
+ }
 
 .home-header__story-circle {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 40px 0px;
-    margin-left: 30px;
+    margin-right: 20px;
 }
 
 .home-header__story-circle__img {
@@ -20,27 +26,69 @@ body {
     justify-content: center;
     align-items: center;
     background-color: black;
-    border: 3px solid rgba(0, 0, 0, 0.7); 
+    border: 3px solid blue; 
     color: white;
-    padding: 20px;
+    padding: 15px;
     font-size: 20px;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     height: 30px;
     width: 30px;
 }
 
+.home-header__story-circle__text {
+    font-size: 12px;
+}
+
 .story-circle__logo {
-    margin-left: 10px;
-    height: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.7); 
+    height: 60px;
     width: 60px;
+    border-radius: 50%;
 }
 
 .story-circle__img__d-effect {
  background-color: white;
 }
 
+.home-main__postbox {
+    margin: 0px 20px;
+    margin-top: 20px;
+}
+
+.home-main__postbox__Exp {
+    padding: 15px;
+    background-color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 2px 1px gray;
+}
+
 .home-main__postbox__img {
-    margin: 20px;
-    width: 335px;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 2px 1px gray;
+}
+
+.home-main__postbox__title {
+    font-weight: 600;
+}
+
+.home-main__postbox__profile {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.home-main__postbox__profile__img {
+    height: 25px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.home-main__postbox__name {
+    font-size: 15px;
 }

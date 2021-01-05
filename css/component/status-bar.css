@@ -1,10 +1,17 @@
 .status-bar {
+    top: 50px;
     display: flex;
-    justify-content: space-between;
-    padding: 5px;
-    width: 100%;
+    padding: 10px;
+    justify-content:space-between;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 375px;
     box-sizing: border-box;
+    font-size: 12px;
+    z-index: 2;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+ 
 
 .status-bar__index {
     background-color: black;
@@ -12,5 +19,7 @@
 }
 
 .status-bar__home {
+    background-color: white;
     color: gray;
+    position: fixed;
 }

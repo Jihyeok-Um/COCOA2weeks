@@ -1,5 +1,6 @@
 
 @import "component/status-bar.css";
+@import "component/nav-bar.css";
 
 @import "screen/homeScreen.css";
 @import "screen/loginScreen.css";

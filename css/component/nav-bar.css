@@ -1,0 +1,28 @@
+.nav {
+    position: fixed;
+    top:830px;
+    width: 375px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #f9f9fa;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.nav__list{
+    display: flex;
+    justify-content:space-between;
+}
+
+.nav__btn{
+    position: relative;
+}
+
+.nav_link{
+    color: #2e363e;
+}
+
+.nav_link__blue {
+    color: blue;
+}

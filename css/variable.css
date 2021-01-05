@@ -1,0 +1,25 @@
+body {
+    background-color: #23272a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewport {
+    overflow: auto;
+    height: 1000vh;
+    margin-top: 50px;
+    height: 812px;
+    width: 375px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    background-color: #141414;
+    border-radius: 30px;
+}
+
+.viewport__home {
+    background-color: white;
+}
+
+.viewport::-webkit-scrollbar {
+   width: 0px;
+}

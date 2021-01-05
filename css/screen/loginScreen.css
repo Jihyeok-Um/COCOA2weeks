@@ -1,10 +1,6 @@
-.body__index {
-    background-color: #141414;
-}
-
 .index-main__logo-image {
-    height: 350px;
-    margin-top: 100px;
+    width: 100%;
+    margin-top: 144x;
 }
 
 .index-main__logo-imagebox {
@@ -12,7 +8,8 @@
     justify-content: center;
     align-items: center;
     background-color: black;
-    margin-bottom: 150px;
+    padding-top: 100px;
+    margin-bottom: 200px;
     position: relative;
 }
 
@@ -24,11 +21,34 @@
 }
 
 .index-main__button {
-    height: 60px;
-    width: 400px;
+    height: 55px;
+    width: 300px;
     border-radius: 30px;
     margin-bottom: 20px;
     border-color: white;
+}
+
+.email__button {
+    background-color:#141414;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.index-main__button__image {
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 90px;
+}
+
+.index-main__button__column {
+    display: flex;
+    align-items: center;
+}
+
+.index-main__button__text {
+    font-size: 15px;
+    font-weight: 100;
 }
 
 .index-main__button:active
@@ -54,31 +74,8 @@
 .index-main__logo-text {
     font-size: 15px;
     font-weight: 300;
-    color: grey;
+    color: lightgray;
     position: absolute;
-}
-
-.email__button {
-    background-color:#141414;
-    color: white;
-    font-size: 20px;
-    font-weight: 100;
-}
-
-.index-main__button__image {
-    height: 25px;
-    margin-left: 5px;
-    margin-right: 125px;
-}
-
-.index-main__button__column {
-    display: flex;
-    align-items: center;
-}
-
-.index-main__button__text {
-    font-size: 20px;
-    font-weight: 100;
 }
 
 .login__a {
@@ -87,4 +84,5 @@
     justify-content: center;
     align-items: center;
     color: white;
+    font-size: 12px;
 }
