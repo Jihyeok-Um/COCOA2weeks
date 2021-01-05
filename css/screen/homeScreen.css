@@ -1,3 +1,46 @@
 body {
     background-color: white;
 }
+
+.home-header {
+    display: flex;
+}
+
+.home-header__story-circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+    margin-left: 30px;
+}
+
+.home-header__story-circle__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 3px solid rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+.story-circle__logo {
+    margin-left: 10px;
+    height: 70px;
+    width: 60px;
+}
+
+.story-circle__img__d-effect {
+ background-color: white;
+}
+
+.home-main__postbox__img {
+    margin: 20px;
+    width: 335px;
+}

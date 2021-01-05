@@ -2,9 +2,15 @@
     display: flex;
     justify-content: space-between;
     padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .status-bar__index {
     background-color: black;
     color: white;
+}
+
+.status-bar__home {
+    color: gray;
 }
