@@ -1,0 +1,60 @@
+body {
+    background-color: #141414;
+}
+
+.index-main__logo-image {
+    height: 450px;
+    margin-top: 100px;
+}
+
+.index-main__logo-imagebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-bottom: 150px;
+}
+
+.status-bar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.index-main__login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-main__button {
+    height: 60px;
+    width: 400px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.email__button {
+    background-color:#141414;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.index-main__button__image {
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 125px;
+}
+
+.index-main__button__column {
+    display: flex;
+    align-items: center;
+}
+
+.index-main__button__text {
+    font-size: 20px;
+    font-weight: 100;
+}
