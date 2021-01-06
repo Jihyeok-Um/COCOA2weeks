@@ -1,0 +1,73 @@
+.notice-header {
+    margin-top: 50px;
+}
+
+.notice-bar {
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.mail-bar {
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.notice__profile {
+    height: 50px;
+    width: 50px;
+}
+
+.notice__column {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail__column {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.notice__text {
+    padding-top: 20px;
+}
+
+.notice__name {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.notice__up-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-main__postbox__title {
+    font-size: 20px;
+}
+
+.mail__text {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.mail__btn {
+    background-color: blue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px;
+}
+
+.mail__btn:active {
+    outline: none;
+}
+
+.mail__btn:focus {
+    outline: none;
+}
