@@ -86,3 +86,8 @@
     color: white;
     font-size: 12px;
 }
+
+
+.loading__img {
+    width: 70px;
+}
