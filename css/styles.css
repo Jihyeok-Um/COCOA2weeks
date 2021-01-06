@@ -2,8 +2,9 @@
 @import "component/status-bar.css";
 @import "component/nav-bar.css";
 
-@import "screen/homeScreen.css";
-@import "screen/loginScreen.css";
+@import "screen/home-screen.css";
+@import "screen/login-screen.css";
+@import "screen/find-screen.css";
 
 @import "variable.css";
 @import "reset.css";

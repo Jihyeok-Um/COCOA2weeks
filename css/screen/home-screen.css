@@ -1,19 +1,15 @@
 
-.home-header {
+.header {
     display: flex;
     padding: 20px;
     padding-bottom: 0px;
     margin-top: 20px;
     width: 375px;
     box-sizing: border-box;
-    overflow: auto;
 }
 
-.home-header::-webkit-scrollbar {
-    height: 5px;
- }
-
 .home-header__story-circle {
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -1,0 +1,61 @@
+.viewport__find {
+    background-color: white;
+}
+
+.search-bar {
+    width: 305px;
+    height: 30px;
+    margin: 0px 10px;
+    background-color: rgba(0, 0, 0, 0.001);
+    border: none;
+}
+
+.find-header {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin-top: 40px;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: relative;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+
+.search-bar__icon {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.search-bar__icon:last-child{
+    color:rgba(0, 0, 0, 0.7);
+}
+
+.search__list {
+    display: flex;
+    align-items: center;
+}
+
+.search__btn {
+    border-radius: 30px;
+    margin:20px;
+    margin-right: 0px;
+}
+.search__btn-active {
+    padding:10px;
+    background-color: black;
+    color: white;
+}
+
+.find__post {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 10px 20px;
+    width: 42%;
+    border-radius: 30px;
+    box-shadow: 2px 1px gray;
+}
+
+.find__postbox {
+    display: flex;
+}
