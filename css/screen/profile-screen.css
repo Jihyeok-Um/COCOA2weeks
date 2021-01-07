@@ -1,0 +1,51 @@
+.header__profile
+{
+    margin-top: 33px;
+}
+
+.header__profile__status-bar {
+    padding: 10px;
+    padding-bottom: 160px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+}
+
+.profile__image-box {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.profile__image {
+    height: 120px;
+    position: absolute;
+    top: -60px;
+    left: 130px;
+}
+
+.profile__text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile__name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.profile__friend-bar {
+    margin-right: 10px;
+}
+
+.profile__text {
+    display: flex;
+    justify-content: center;
+}
+
+.profile__box {
+    padding-bottom: 200px;
+}

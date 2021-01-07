@@ -6,6 +6,7 @@
 @import "screen/login-screen.css";
 @import "screen/find-screen.css";
 @import "screen/notice-screen.css";
+@import "screen/profile-screen.css";
 
 @import "variable.css";
 @import "reset.css";
