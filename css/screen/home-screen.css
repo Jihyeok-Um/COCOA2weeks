@@ -37,9 +37,15 @@
 }
 
 .story-circle__logo {
-    height: 62px;
-    width: 62px;
+    height: 82px;
+    width: 82px;
+    color: black;
     border-radius: 50%;
+}
+
+.logo__d-effect {
+    height: 55px;
+    width: 55px;
 }
 
 .story-circle__img__d-effect {
